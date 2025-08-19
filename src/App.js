@@ -153,7 +153,13 @@ function GuessPromptGame() {
 
       {/* Game Area */}
       <div style={gameAreaStyle}>
-        <h1 style={headerStyle}>🎯 Guess the Prompt</h1>
+        <h1 style={headerStyle}>
+          <img 
+            src="/image.png" 
+            alt="icon" 
+            style={{ width: "30%", height: "100px", verticalAlign: "middle", marginRight: "8px" }} 
+          />
+        </h1>
 
         {!submitted && (
           <div style={{ marginBottom: 16, display: "flex", alignItems: "center", gap: "12px" }}>
